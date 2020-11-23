@@ -1,0 +1,3 @@
+{
+    "MongoURI":"mongodb+srv://Yhomi:ace18081996@cluster0.0caid.mongodb.net/expenseTracker?retryWrites=true&w=majority"
+}
