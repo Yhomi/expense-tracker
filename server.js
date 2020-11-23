@@ -15,9 +15,9 @@ if(process.env.NODE_ENV === 'development'){
     app.use(morgan('dev'))
 }
 
-app.get('/',(req,res)=>{
-    res.send("Hello There")
-});
+// app.get('/',(req,res)=>{
+//     res.send("Hello There")
+// });
 
 const transaction = require('./routes/transaction');
 app.use('/api/transactions',transaction);
